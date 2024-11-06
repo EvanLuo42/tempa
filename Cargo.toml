@@ -1,0 +1,7 @@
+[workspace]
+members = ["tempa-firmware", "tempa-ui", "tempa-ui-sim"]
+resolver = "2"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"

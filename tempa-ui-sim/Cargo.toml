@@ -1,0 +1,9 @@
+[package]
+name = "tempa-ui-sim"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+tempa-ui = { path = "../tempa-ui" }
+embedded-graphics = "0.8.1"
+embedded-graphics-simulator = "0.7.0"
